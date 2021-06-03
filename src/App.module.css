@@ -1,5 +1,6 @@
+
 body{
-    background: rgb(214, 211, 211);
+    background: rgb(235 234 237);  
 }
 
 .container{
@@ -7,4 +8,19 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.image{
+    width: 370px;
+    margin-top: 50px;
+}
+
+@media (max-width:770px) {
+    .container{
+        margin: 0 10%;
+    }
+
+    .image{
+        width: 100%;
+    }
 }

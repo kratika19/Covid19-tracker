@@ -41,7 +41,7 @@ const Charts = ({ data, country }) => {
             <Bar
                 options={{
                     legend: { display: false },
-                    title: { display: true, text: `Current state in ${country}` },
+                    title: { display: true, text:'Apple' },
                 }}
                 data={{
                     labels: ['Infected', 'Recovered', 'Deaths'],
