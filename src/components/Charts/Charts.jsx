@@ -13,7 +13,7 @@ const Charts = ({ data, country }) => {
         };
         
         fetchDailyData();
-    }, [{}]);
+    }, []);
 
     const lineChart = (
         dailyData.length ? (<Line
