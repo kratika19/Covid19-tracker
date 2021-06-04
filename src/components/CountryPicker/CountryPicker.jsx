@@ -17,7 +17,7 @@ const CountryPicker = ({handleCountryChange}) => {
         fetchCountries();
 
         console.log(fetchedCountries);
-    }, [setfetchedCountries])
+    }, [fetchedCountries])
 
     console.log(fetchedCountries);
 
