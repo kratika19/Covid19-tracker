@@ -7,7 +7,7 @@
 
 .card{
     margin: 10px 2% !important;
-    font-family: 'Alef', sans-serif;
+    font-family: 'Alef', sans-serif !important;
 }
 
 .infected{

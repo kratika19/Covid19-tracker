@@ -11,8 +11,7 @@ const Charts = ({ data, country }) => {
             const Ddata = await getDailyData();
             setdailyData(Ddata);
         };
-
-        console.log(dailyData)
+        
         fetchDailyData();
     }, []);
 
